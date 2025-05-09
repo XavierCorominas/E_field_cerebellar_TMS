@@ -22,8 +22,8 @@
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...pm12\toolbox\suit-3.7');
+% addpath('...spm12\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -56,7 +56,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...martina.bracco\cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -193,8 +193,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...
@@ -206,8 +206,8 @@ data_average = suit_ROI_summarize([output_file], ...
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...spm12\toolbox\suit-3.7');
+% addpath('...spm12\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -240,7 +240,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -377,8 +377,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...
@@ -389,8 +389,8 @@ data_average = suit_ROI_summarize([output_file], ...
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...spm12\toolbox\suit-3.7');
+% addpath('...spm12\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -423,7 +423,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -560,8 +560,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...
@@ -573,8 +573,8 @@ data_average = suit_ROI_summarize([output_file], ...
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...spm12\toolbox\suit-3.7');
+% addpath('...spm12\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -607,7 +607,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -744,8 +744,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...
@@ -757,8 +757,8 @@ data_average = suit_ROI_summarize([output_file], ...
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...\toolbox\suit-3.7');
+% addpath('...\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -791,7 +791,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -926,8 +926,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...
@@ -939,8 +939,8 @@ data_average = suit_ROI_summarize([output_file], ...
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
-% addpath('\\iss\cenir\software\irm\spm12\toolbox\suit');
+addpath('...spm12\toolbox\suit-3.7');
+% addpath('...\toolbox\suit');
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
@@ -973,7 +973,7 @@ subjects = {
 num_subjects = size(subjects, 1);
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...cRETMS_MRIs\';
 
 % Initialize list to store file paths
 file_paths = cell(num_subjects, 1);
@@ -1110,8 +1110,8 @@ title('E-strength mean affected area (>50V/m)', 'FontSize', 20);
 axis off;
 
 % Summarize data using the cerebellar atlas
-% atlas_path = 'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
-atlas_path = 'C:\Users\martina.bracco\OneDrive - ICM\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+% atlas_path = '...suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
+atlas_path = '...spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii';
 
 data_average = suit_ROI_summarize([output_file], ...
                                   'atlas', atlas_path, ...

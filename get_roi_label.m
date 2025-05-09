@@ -18,9 +18,9 @@ path = pwd;
 
 par = complet_struct(par,defpar);
 
-%addpath('/network/lustre/iss01/cenir/software/irm/freesurfer7.0_centos08/matlab')
+%addpath('...irm/freesurfer7.0_centos08/matlab')
 if isempty(par.colorlut) && isempty(par.name)
-    [code, name, rgv,tt] = read_fscolorlut('/network/lustre/iss02/cenir/software/irm/freesurfer7.0_centos08/FreeSurferColorLUT.txt')
+    [code, name, rgv,tt] = read_fscolorlut('...irm/freesurfer7.0_centos08/FreeSurferColorLUT.txt')
 elseif isempty(par.name)
     [code, name] = readLut(par.colorlut);
     

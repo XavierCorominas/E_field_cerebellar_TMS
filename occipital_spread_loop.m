@@ -10,8 +10,8 @@
 
 %%
 
-addpath('C:\Users\vridhi.rohira\Documents\MATLAB\simnibs_env\Lib\site-packages\simnibs\matlab_tools')
-addpath('C:\Users\vridhi.rohira\Documents\MATLAB\spm12')
+addpath('...\simnibs\matlab_tools')
+addpath('...\MATLAB\spm12')
 
 % Define subject list with session information
 subjects = {
@@ -39,7 +39,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer_mastoid_half_figure8_fix_intensity\\fsavg_overlays';
 fsavg_msh_name = '_TMS_1-0001_Magstim_70mm_Fig8_scalar_fsavg.msh';
 field_name = 'magnE';

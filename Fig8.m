@@ -21,10 +21,10 @@ clear all;
 close all; 
 
 % Simnibs :
-addpath('C:\Users\vridhi.rohira\Documents\MATLAB\simnibs_env\Lib\site-packages\simnibs\matlab_tools')
+addpath('...MATLAB\simnibs_env\Lib\site-packages\simnibs\matlab_tools')
 
 % Path to Suit:
-addpath('\\l2export\iss02.cenir\software\irm\spm12\toolbox\suit');
+addpath('...spm12\toolbox\suit');
 
 
 %%  Set subject parameters
@@ -39,7 +39,7 @@ intensity = rmt/100*114.7e6
 
 %% Path to originla T1 UNI presurfed;
 
-path_to_mri_nifti = ['\\l2export\iss02.cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\',date,'_CRETMS_01_',subject_id,'\',sequence,'_T1w_mp2rage_UNI_Images'];
+path_to_mri_nifti = ['...\',date,'_CRETMS_01_',subject_id,'\',sequence,'_T1w_mp2rage_UNI_Images'];
 
 % In case that there is any head model missing, creat it : 
 %{
@@ -53,7 +53,7 @@ Then locate the IN2 and Uni images of your participant and run the code.
     presurf_MPRAGEise(INV2,UNI);
 
 % Example 
-presurf_MPRAGEise('E:\MartinaSimulations\001\S05_T1w_mp2rage_INV2\v_CRETMS_01_001_S5_T1w_mp2rage_INV2.nii','E:\MartinaSimulations\001\S04_T1w_mp2rage_UNI_Images\v_CRETMS_01_001_S4_T1w_mp2rage_UNI_Images.nii');
+presurf_MPRAGEise('..._T1w_mp2rage_INV2.nii','..._T1w_mp2rage_UNI_Images.nii');
 
 % Then create head model wtih simnibs. Change to correct path:
 cd(path_to_mri_nifti)
@@ -61,7 +61,7 @@ clc;
 [status,cmdout] = system(['cd ',path_to_mri_nifti],'-echo');
 
 % Run the SIMNIBS charm protocol in the terminal to segment the head tissues. Please read the SIMNIBS website for further information:
-[status,cmdout] = system(['C:\Users\XAVIER\SimNIBS-4.0\bin\charm',' ',subject_id, ' ' ,filename, ' --forceqform --forcerun'], '-echo');
+[status,cmdout] = system(['...bin\charm',' ',subject_id, ' ' ,filename, ' --forceqform --forcerun'], '-echo');
 
 %}
 
@@ -465,8 +465,8 @@ cd ([path_to_mri_nifti,'\Simnibs_simulation\simulation_',coil_pos,'_',coil_type,
 suit_isolate_seg({'T1.nii'});
 
 % Suit Normalization
-addpath('C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\OldNorm\')
-addpath('C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\DARTEL')
+addpath('...MATLAB\spm12\toolbox\OldNorm\')
+addpath('...MATLAB\spm12\toolbox\DARTEL')
 job.subjND.gray = ({['T1_seg1.nii']});
 job.subjND.white = ({['T1_seg2.nii']});
 job.subjND.isolation = ({['c_T1_pcereb.nii']});
@@ -522,7 +522,7 @@ save(C,'mygiftifile.func.gii');
 
 % Summarize data por lobules
 data =  suit_ROI_summarize(['wdcRETMS_01_',subject_id,'_TMS_1-0001_Magstim_70mm_Fig8_scalar_magnE.nii'],'atlas', ...
-    'C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii','outfilename','lob_info');
+    '...MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii','outfilename','lob_info');
 save data 
 % Results of the lobules appear per regions numbered from 1 to 34 in the c.nanmen variable.
 % The list of the lobules is provided appart but here it is a resume:
@@ -627,5 +627,5 @@ title(['E-strength mean affected area (>50V/m)'],'FontSize',20)
 axis off
 
 saveas(gcf,['afected_area_meanall.png'])
-data_average = suit_ROI_summarize(['mean_output_suit.nii.gz'],'atlas','C:\Users\vridhi.rohira\Documents\MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii','outfilename','lob_info');
+data_average = suit_ROI_summarize(['mean_output_suit.nii.gz'],'atlas','...MATLAB\spm12\toolbox\suit\cerebellar_atlases-master\Diedrichsen_2009\atl-Anatom_space-SUIT_dseg.nii','outfilename','lob_info');
 %%

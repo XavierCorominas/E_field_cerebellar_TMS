@@ -10,7 +10,7 @@ if ~exist('par')
     par='';
 end
 defpar.foldername = 'suit';
-defpar.reference ='/network/lustre/iss02/cenir/software/irm/spm12/toolbox/suit_old/atlas/Cerebellum-SUIT.nii';
+defpar.reference ='...spm12/toolbox/suit_old/atlas/Cerebellum-SUIT.nii';
 defpar.refinv = {}
 par = complet_struct(par,defpar);
 reference =cellstr(char(par.reference));

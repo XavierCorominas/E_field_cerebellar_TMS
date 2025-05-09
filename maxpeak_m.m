@@ -35,7 +35,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer1_DCC';
 fsavg_msh_name = '_TMS_1-0001_Magstim_DCC_scalar.msh';
 field_name = 'magnE';
@@ -114,7 +114,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer_1_3cm_DCC';
 fsavg_msh_name = '_TMS_1-0001_Magstim_DCC_scalar.msh';
 field_name = 'magnE';
@@ -193,7 +193,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer_mastoid_DCC';
 fsavg_msh_name = '_TMS_1-0001_Magstim_DCC_scalar.msh';
 field_name = 'magnE';
@@ -272,7 +272,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer1_figure8';
 fsavg_msh_name = '_TMS_1-0001_Magstim_70mm_Fig8_scalar.msh';
 field_name = 'magnE';
@@ -351,7 +351,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer_1_3cm_figure8';
 fsavg_msh_name = '_TMS_1-0001_Magstim_70mm_fig8_scalar.msh';
 field_name = 'magnE';
@@ -430,7 +430,7 @@ subjects = {
 };
 
 % Base directory and folder structure
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 folder_structure = '%s_%s\\%s_T1w_mp2rage_UNI_Images\\Simnibs_simulation\\simulation_cer_mastoid_figure8';
 fsavg_msh_name = '_TMS_1-0001_Magstim_70mm_Fig8_scalar.msh';
 field_name = 'magnE';

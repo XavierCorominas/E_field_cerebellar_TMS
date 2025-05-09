@@ -46,7 +46,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);
@@ -228,7 +228,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);
@@ -410,7 +410,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);
@@ -594,7 +594,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);
@@ -776,7 +776,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);
@@ -958,7 +958,7 @@ num_subjects = size(subjects, 1);
 num_parcellations = 34; % Assuming there are 34 parcellations
 
 % Base directory where subject folders are stored
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs';
+base_dir = '...\cRETMS_MRIs';
 
 % Initialize the matrix to store the nanmean values for all subjects
 nanmean_matrix = zeros(num_parcellations, num_subjects);

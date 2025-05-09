@@ -12,7 +12,7 @@
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -40,7 +40,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 
@@ -136,7 +136,7 @@ fprintf('Average NIfTI image for DCC cer1 saved to %s\n', output_avg_file);
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -164,7 +164,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 
@@ -260,7 +260,7 @@ fprintf('Average NIfTI image for DCC cer1_3 saved to %s\n', output_avg_file);
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -288,7 +288,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 
@@ -383,7 +383,7 @@ fprintf('Average NIfTI image for DCC mastoid saved to %s\n', output_avg_file);
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -411,7 +411,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 
@@ -506,7 +506,7 @@ fprintf('Average NIfTI image for f8 cer1 saved to %s\n', output_avg_file);
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -534,7 +534,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 
@@ -629,7 +629,7 @@ fprintf('Average NIfTI image for f8 cer1_3 saved to %s\n', output_avg_file);
 
 spm('Defaults', 'fMRI');
 spm_jobman('initcfg');
-addpath('\\iss\cenir\software\irm\spm12\toolbox\suit-3.7');
+addpath('...\suit-3.7');
 
 % Subject info
 subjects = {
@@ -657,7 +657,7 @@ subjects = {
 
 num_subjects = size(subjects, 1);
 
-base_dir = '\\iss\cenir\analyse\irm\users\martina.bracco\cRETMS_MRIs\';
+base_dir = '...\cRETMS_MRIs\';
 file_paths = cell(num_subjects, 1);
 normalized_paths = cell(num_subjects, 1);
 

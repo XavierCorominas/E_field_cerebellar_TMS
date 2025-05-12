@@ -6,6 +6,7 @@
 <sup>^</sup> Equal Contribution  
 <sup>#</sup> Senior Authorship
 
+Please see for more details: https://doi.org/10.1016/j.brs.2025.05.010
 
 **Reproducibility Instructions**
 This repository contains all necessary scripts to reproduce the models and results presented in the associated publication. To replicate the findings, please run the scripts in the following order:
